@@ -1,9 +1,8 @@
-num1, num2 = 1,1
-puts num1
-puts num2
-for i in 1..18
+num1, num2 = 0,1
+sum = 0
+for i in 1..20
+  puts num1
   sum =num1+num2
-  puts sum
   num1=num2
   num2 =sum
 end
