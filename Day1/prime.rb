@@ -1,21 +1,4 @@
-puts "Enter any number"
-=begin
-num = gets.to_i
-isPrime = true
-sqNum = Math.sqrt(num).ceil
-for i in 2..sqNum
-  if(num % i == 0)
-    isPrime = false
-    break
-  end
-end
-if(isPrime == true)
-  puts "#{num} is prime"
-else
-  puts "#{num} is composite"
-end
-=end
-
+puts 'Enter any number'
 rawNum = gets
 begin
   num = Integer(rawNum)
@@ -37,5 +20,5 @@ begin
     end
   end
 rescue
-  puts "Please enter valid number"
+  puts 'Please enter valid number'
 end
